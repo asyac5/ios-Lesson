@@ -31,7 +31,7 @@ struct ContentView: View {
                 image.imageModifier()
                     .transition(.move(edge: .bottom))
             case .failure(_):
-                Image(systemName: "figure.walk")
+                Image(systemName: "hand.thumbsdown.fill")
                     .iconModifier()
             case .empty:
                 Image(systemName: "hand.draw")
